@@ -1,0 +1,7 @@
+services:
+  ghsot:
+    build: .
+    tty: true
+    env_file:
+      - .env
+    command: python main.py
